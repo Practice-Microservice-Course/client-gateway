@@ -16,3 +16,4 @@
 2. Instalar dependencias
 3. Crear un archivo `.env`basado en el archivo `.env.template`
 4. Ejecutar `npm run start:dev`
+5. Ejecutar `docker run --name nats-server -p 4222:4222 -p 8222:8222 nats`
