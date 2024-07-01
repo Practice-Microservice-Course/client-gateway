@@ -21,6 +21,7 @@ async function bootstrap() {
   app.useGlobalFilters(new RpcCustomExceptionFilter());
 
   await app.listen(envs.PORT);
+  console.log('Hola mundo, primer cambio')
 
   logger.log(`Server running on http://localhost:${envs.PORT}`);
 }
